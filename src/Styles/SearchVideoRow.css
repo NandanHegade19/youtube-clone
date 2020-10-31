@@ -1,0 +1,26 @@
+.searchvideorow {
+    display: flex;
+    margin-bottom: 30px;
+    max-width: 700px;
+}
+
+.searchvideorow > img {
+    object-fit: contain;
+    width: 236px;
+    height: 138px;
+}
+
+.searchvideorow__title{
+    margin-left: 14px;
+}
+
+.searchvideorow__desc {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #606060;
+}
+
+.searchvideorow__channel {
+    font-size: 12px;
+    color: #606060;
+}
