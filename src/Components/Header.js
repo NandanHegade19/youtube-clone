@@ -12,7 +12,7 @@ import {Link} from 'react-router-dom';
 function Header() {
 
     const [searchText, setSearchText] = useState('');
-
+    console.log("Serach", searchText)
     return (
         <div className = "header">
             <div className = "header__left">
